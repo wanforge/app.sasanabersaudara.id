@@ -49,6 +49,8 @@ Daftar lengkap proyek dapat dilihat di [website kami](https://sasanabersaudara.b
 ## Kontak
 
 - **Lokasi:** Kabupaten Trenggalek, Jawa Timur, Indonesia
+- **Email:** sasanabersaudara@gmail.com
+- **Telepon/WA:** 0895404950080
 - **Website:** https://sasanabersaudara.biz.id/
 
 ---

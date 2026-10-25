@@ -1,5 +1,5 @@
 /* Service Worker — PT. Sasana Bersaudara Indonesia (sasanabersaudaraind.id) */
-const CACHE = 'sbi-cache-v7';
+const CACHE = 'sbi-cache-v8';
 const CORE = [
   './',
   './index.html',
