@@ -49,7 +49,6 @@ Daftar lengkap proyek dapat dilihat di [website kami](https://sasanabersaudara.b
 ## Kontak
 
 - **Lokasi:** Kabupaten Trenggalek, Jawa Timur, Indonesia
-- **Email:** info@sasanabersaudaraind.id
 - **Website:** https://sasanabersaudara.biz.id/
 
 ---
