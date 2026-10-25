@@ -1,33 +1,57 @@
-# Website PT. Sasana Bersaudara Indonesia — sasanabersaudaraind.id
+<div align="center">
+  <img src="assets/logo-sbi.jpg" alt="Logo PT. Sasana Bersaudara Indonesia" width="340">
+</div>
 
-Website statis (HTML/CSS/JS murni, tanpa perlu build). Siap di-host di GitHub Pages.
+# PT. Sasana Bersaudara Indonesia
 
-## Cara pasang di GitHub Pages
+**Integrated Facility Services Provider** — berdiri sejak 2013, berpusat di Kabupaten Trenggalek, Jawa Timur, Indonesia.
 
-1. Buat repository baru di GitHub, misalnya `sasanabersaudaraind.id` (atau nama lain).
-2. Upload semua isi folder ini ke repository:
-   - `index.html`
-   - `manifest.webmanifest`, `sw.js`, `robots.txt`, `sitemap.xml`
-   - folder `assets/` (beserta seluruh isinya, termasuk `assets/icons/`)
-3. Di repository, buka **Settings → Pages**.
-4. Pada bagian **Build and deployment**, pilih Source: **Deploy from a branch**, Branch: `main`, folder `/ (root)`, lalu **Save**.
-5. Tunggu 1–2 menit, website akan online di `https://<username>.github.io/<nama-repo>/`.
-6. (Opsional) Untuk domain sendiri `sasanabersaudaraind.id`: di Settings → Pages isi **Custom domain** dengan `sasanabersaudaraind.id`, lalu di penyedia DNS domain tambahkan record yang diarahkan GitHub (A record ke IP GitHub Pages / CNAME ke `<username>.github.io`).
+🌐 **Website resmi:** https://sasanabersaudara.biz.id/
 
-## Yang masih perlu dilengkapi
+---
 
-- Nomor telepon/WhatsApp resmi perusahaan (di bagian Kontak footer masih tertulis "(akan dilengkapi)").
-- Alamat kantor lengkap bila ingin ditampilkan.
-- Alamat email `info@sasanabersaudaraind.id` — sesuaikan bila berbeda.
+## Tentang Kami
 
-## Struktur
+PT. Sasana Bersaudara Indonesia (SBI) adalah perusahaan penyedia layanan fasilitas terpadu (*integrated facility services*) yang mendukung operasional institusi dan perusahaan melalui pengelolaan sumber daya manusia dan layanan pendukung yang profesional, terukur, dan berkelanjutan.
 
-- `index.html` — seluruh halaman (Beranda, Tentang, Layanan, Keunggulan, Profil/Visi-Misi/Nilai PRIMA, Klien & Proyek, Galeri, Kontak)
-- `assets/` — logo SBI, logo klien, dan foto galeri
-- `assets/icons/` — ikon aplikasi (favicon & PWA) dari simbol logo SBI
+Sejak 2013, SBI dipercaya oleh berbagai rumah sakit, instansi pemerintah, dan institusi pendidikan di Jawa Timur untuk menghadirkan lingkungan kerja yang bersih, aman, dan nyaman — dengan **36 proyek yang telah diselesaikan pada 2017–2026**.
 
-## SEO & PWA
+> *SBI — Integrated Service. Professional People. Reliable Solutions.*
 
-- SEO: meta description & keywords, canonical ke `https://sasanabersaudaraind.id/`, Open Graph/Twitter Card, data terstruktur JSON-LD (ProfessionalService), `robots.txt`, dan `sitemap.xml`. Setelah domain aktif, daftarkan ke Google Search Console dan kirim sitemap-nya.
-- PWA: website dapat di-"install" sebagai aplikasi di HP/desktop (manifest + service worker) dan tetap bisa dibuka saat offline setelah kunjungan pertama. PWA membutuhkan HTTPS — GitHub Pages sudah menyediakannya.
-- Catatan: bila nanti mengedit `index.html`, naikkan versi cache di `sw.js` (mis. `sbi-cache-v2`) agar pengunjung menerima versi terbaru.
+## Layanan Kami
+
+- **Human Capital Management** — pengelolaan dan pengembangan SDM operasional
+- **Cleaning Service** — layanan kebersihan gedung dan area publik
+- **Pertamanan & Lanskap** — perawatan taman dan ruang terbuka hijau
+- **Security Service** — layanan pengamanan dan pengawasan
+- **Logistics & Warehouse Support** — dukungan logistik dan pergudangan
+- **Technical Services** — layanan teknis dan pemeliharaan fasilitas
+- **Administrasi & Dukungan SDM** — dukungan administrasi dan kepegawaian
+- **General Support Service** — layanan pendukung umum operasional
+- **Home Cleaning** — layanan kebersihan untuk hunian
+
+## Nilai Perusahaan — PRIMA
+
+| Huruf | Nilai | Makna |
+|---|---|---|
+| **P** | Professionalism | *Professional in Every Action* |
+| **R** | Reliability | *Reliable in Every Commitment* |
+| **I** | Integrity | *Honest in Every Relationship* |
+| **M** | Mutual Growth | *Growing Together, Creating Value* |
+| **A** | Adaptive Excellence | *Adapt, Improve, Excel* |
+
+## Dipercaya Oleh
+
+RSUD dr. Soedomo Trenggalek · Setda Kabupaten Trenggalek · Dinas Kesehatan Kota Blitar · DKPP Kota Blitar · RS Budi Asih Trenggalek · RSUD Mardi Waluyo Blitar · RSIA Harapan Sehat dan Tentram · Poltekpel Surabaya · Klinik Wijaya Kusuma Medika · MI Walisongo · dan institusi lainnya.
+
+Daftar lengkap proyek dapat dilihat di [website kami](https://sasanabersaudara.biz.id/#proyek).
+
+## Kontak
+
+- **Lokasi:** Kabupaten Trenggalek, Jawa Timur, Indonesia
+- **Email:** info@sasanabersaudaraind.id
+- **Website:** https://sasanabersaudara.biz.id/
+
+---
+
+<sub>Repositori ini berisi kode sumber website resmi PT. Sasana Bersaudara Indonesia, diterbitkan melalui GitHub Pages. Situs dibangun sebagai halaman statis (HTML, CSS, dan JavaScript murni) dengan dukungan SEO dan PWA.</sub>
